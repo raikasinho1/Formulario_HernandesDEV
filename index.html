@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Empresa XYZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Name</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="placeholder">
+                <small>help</small>
+            </div>
+
+            <div class="form-group">
+                <label for="data">Data Nascimento:</label>
+                <input type="date" id="data" name="data">
+                <small>help</small>
+            </div>
+
+            <div class="form-group">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" placeholder="placeholder">
+                <small>help</small>
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Nro:</label>
+                <input type="text" id="numero" name="numero" placeholder="placeholder">
+                <small>help</small>
+            </div>
+
+            <div class="form-group">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" placeholder="placeholder">
+                <small>help</small>
+            </div>
+
+            <div class="form-group">
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option>Option one</option>
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>MG</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option>Option one</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Bens Pessoais:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="casa" name="bens" value="casa">
+                    <label for="casa">Casa</label>
+                    <input type="checkbox" id="carro" name="bens" value="carro">
+                    <label for="carro">Carro</label>
+                    <input type="checkbox" id="moto" name="bens" value="moto">
+                    <label for="moto">Moto</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="experiencias">Text Area</label>
+                <textarea id="experiencias" name="experiencias" placeholder="Experiências Pessoais:"></textarea>
+            </div>
+
+            <div class="form-buttons">
+                <input type="submit" value="Enviar" class="btn green">
+                <input type="reset" value="Limpar" class="btn red">
+            </div>
+        </form>
+    </div>
+    <footer class="dev-footer">
+    <h3>S.Hernandes DEV</h3>
+</footer>
+
+</body>
+</html>
